@@ -1,0 +1,36 @@
+@HttpResilienceDemo.UnreliableWeatherApi_HostAddress = https://localhost:5001
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/slow
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/rate-limited
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/mixed
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/unstable
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/delayed
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.UnreliableWeatherApi_HostAddress}}/api/weather/limited
+Accept: application/json
+
+###

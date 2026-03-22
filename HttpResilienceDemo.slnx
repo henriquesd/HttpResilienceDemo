@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HttpResilienceDemo.ResilientApi/HttpResilienceDemo.ResilientApi.csproj" />
+    <Project Path="src/HttpResilienceDemo.UnreliableWeatherApi/HttpResilienceDemo.UnreliableWeatherApi.csproj" />
+  </Folder>
+</Solution>

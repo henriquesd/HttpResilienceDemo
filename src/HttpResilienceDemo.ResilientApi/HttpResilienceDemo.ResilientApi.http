@@ -1,0 +1,71 @@
+@HttpResilienceDemo.ResilientApi_HostAddress = https://localhost:5002
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/retry/constant
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/retry/linear
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/retry/exponential
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/retry/selective
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/retry/retry-after
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/circuit-breaker/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/timeout/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/fallback/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/timeout-fallback/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/rate-limiter/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/hedging/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/combined/weather
+Accept: application/json
+
+###
+
+GET {{HttpResilienceDemo.ResilientApi_HostAddress}}/api/standard/weather
+Accept: application/json
+
+###
